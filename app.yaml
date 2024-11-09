@@ -30,7 +30,7 @@ spec:
       initContainers: 
       - name: init-html 
         image: curlimages/curl 
-        command: ["sh", "-c", "curl -o /usr/share/nginx/html/index.html https://raw.githubusercontent.com/piolosophy/kubernetes_Act/main/app.yaml"] 
+        command: ["sh", "-c", "curl -o /usr/share/nginx/html/index.html https://raw.githubusercontent.com/fuedomykopiolo/kubernetes_Act/main/app.yaml"] 
         volumeMounts: 
         - name: html-volume 
           mountPath: /usr/share/nginx/html 
